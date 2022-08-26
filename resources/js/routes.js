@@ -8,31 +8,30 @@ const IndexPets = () => import("./components/pets/IndexPets.vue");
 const CreatePets = () => import("./components/pets/CreatePets.vue");
 const EditPets = () => import("./components/pets/EditPets.vue");
 
-
 export const routes = [
     {
         name: "categories",
         path: "/categories",
-        component: Categories
+        component: Categories,
     },
     {
         name: "tags",
         path: "/tags",
-        component: Tags
+        component: Tags,
     },
     {
         name: "indexPets",
         path: "/pets",
-        component: IndexPets
+        component: IndexPets,
     },
     {
         name: "createPets",
         path: "/pets/create",
-        component: CreatePets
+        component: CreatePets,
     },
     {
-        name:"editPets",
-        path:"/edit/:id",
-        component:EditPets
+        name: "editPets",
+        path: "/edit/:id",
+        component: EditPets,
     },
-]
+];

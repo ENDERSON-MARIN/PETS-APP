@@ -58,6 +58,8 @@ OR
 OR
 	wammp https://sourceforge.net/projects/wampserver/files/latest/download
 
+    
+# Notes: Open in the console XAMMP version php > 8.0
 
 ## Author
 
